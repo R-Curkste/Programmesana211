@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <title>RC - {% block nosaukums %}Index lapa {% endblock %}</title>
+    </head>
+    <body>
+        <a href="/">Sākums</a>
+        <a href="/teksts">Teksts</a>
+
+        <h1>Rūdolfs Čurkstes mājaslapa</h1>
+        {% block saturs %}
+        <p>Sveiki!</p>
+        {% endblock %}
+        {% block bilde %}
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theonion.com%2Fhome-depot-releases-new-bluetooth-cordless-hose-1819592894&psig=AOvVaw0bElxWqlw8HKYt3inLhcMK&ust=1711023354818000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIi2rO3ogoUDFQAAAAAdAAAAABAD">
+        {% endblock %}
+    </body>
+</htm>
